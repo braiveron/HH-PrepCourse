@@ -83,7 +83,7 @@ xdescribe("agregarItemAlComienzoDelArray(arr, item)", function () {
   });
 });
 
-describe("dePalabrasAFrase(words)", function () {
+xdescribe("dePalabrasAFrase(words)", function () {
   it("should return a string that has all of the words from the array separated by spaces", function () {
     expect(dePalabrasAFrase(["Henry", "JavaScript", "Class"])).toBe(
       "Henry JavaScript Class"
@@ -92,7 +92,7 @@ describe("dePalabrasAFrase(words)", function () {
   });
 });
 
-describe("arrayContiene(arr, item)", function () {
+xdescribe("arrayContiene(arr, item)", function () {
   it("should return true if the array contains the item", function () {
     expect(arrayContiene([10, 10, 16, 12], 10)).toBe(true);
     expect(arrayContiene([97, 100, 80, 55, 72, 94], "Hola")).toBe(false);
@@ -100,7 +100,7 @@ describe("arrayContiene(arr, item)", function () {
   });
 });
 
-describe("agregarNumeros(numbers)", function () {
+xdescribe("agregarNumeros(numbers)", function () {
   it("should add all of the numbers in the array together and return the sum", function () {
     expect(agregarNumeros([10, 10, 16])).toBe(36);
     expect(agregarNumeros([97, 100])).toBe(197);
@@ -108,7 +108,7 @@ describe("agregarNumeros(numbers)", function () {
   });
 });
 
-describe("promedioResultadosTest(testScores)", function () {
+xdescribe("promedioResultadosTest(testScores)", function () {
   it("should return the average test score", function () {
     expect(promedioResultadosTest([10, 10, 16, 12])).toBe(12);
     expect(promedioResultadosTest([97, 100, 80, 55, 72, 94])).toBe(83);
